@@ -1,0 +1,316 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+:root {
+    font-size: 62.5%;
+    --text-1: #777777;
+    --logocolor: #21243D;
+    --spancolor: #878CFF;
+    --text-2: #21243D;
+    --bgcolor-1: #FCFCFC;
+    --footer: #1E1E1E;
+    --white: #ffffff;
+    --text-3: #6F6F6F;
+    --border: #E2E2E2;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    list-style: none;
+}
+
+span.span-clr {
+    color: var(--spancolor);
+}
+
+h1 {
+    font-size: 4.4rem;
+}
+
+h2 {
+    font-size: 4rem;
+}
+
+h3 {
+    font-size: 2.6rem;
+}
+
+p {
+    font-size: 2rem;
+}
+
+a {
+    font-size: 2rem;
+    color: var(--text-2);
+    font-weight: 500;
+}
+
+.container {
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+.btn {
+    display: inline-block;
+    padding: 1rem 3rem;
+}
+
+.btn-primary {
+    background-color: var(--footer);
+    color: var(--white);
+    border-radius: 0.8rem;
+}
+
+.btn-secondary {
+    background-color: var(--spancolor);
+    color: var(--white);
+    border-radius: 0.8rem;
+}
+
+.link-btn {
+    color: var(--spancolor);
+    text-decoration: underline;
+}
+.btn-primary{
+    transition: all 0.5s ease;
+}
+/* btnhover */
+.btn-primary:hover{
+    transform: scale(1.08);
+    background-color: var(--spancolor);
+}
+.btn-secondary{
+    transition: all 0.5s ease;
+}
+.btn-secondary:hover{
+    transform: scale(1.08);
+    background-color: var(--text-2);
+}
+.link-btn:hover{
+    transform: scale(1.08);
+    color: #000000;
+}
+/* STYLE FOR HEADER */
+
+.header .content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 5rem;
+    padding-bottom: 15rem;
+}
+
+.header .content .menu ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
+}
+.menu a:hover{
+    transform: scale(1.08);
+    color: var(--spancolor);
+}
+
+/* STYLE FOR SECTION-1 */
+
+.section-1 .content-1 {
+    text-align: center;
+    padding-bottom: 10rem;
+}
+
+.section-1 .content-1 h1 {
+    margin-top: 3rem;
+}
+
+.section-1 .content-1 p {
+    margin-top: 3rem;
+}
+
+.section-1 .content-1 img {
+    transition: all 0.5s ease;
+}
+
+.section-1 .content-1 img:hover {
+    transform: scale(1.2);
+}
+
+.section-1 .content-1 a {
+    margin-top: 3rem;
+}
+
+/* STYLE FOR SECTION-2 */
+
+.section-2 .content-2 {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-top: 5rem;
+    padding-bottom: 15rem;
+}
+
+.section-2 .content-2 .left {
+    flex-basis: 45%;
+
+}
+
+.section-2 .content-2 .right {
+    flex-basis: 50%;
+    padding: 5rem;
+}
+
+.section-2 .content-2 .right p {
+    font-size: 1.8rem;
+    text-align: justify;
+    margin-top: 3rem;
+}
+.section-2 .content-2 .left{
+    transition: all 0.5s ease;
+}
+.section-2 .content-2 .left:hover{
+    transform: scale(1.2);
+}
+.section-2 .content-2 .right a {
+    margin-top: 3rem;
+}
+
+/* STYLE FOR SECTION-3 */
+
+.section-3 .content-3 {
+    padding-top: 5rem;
+    padding-bottom: 10rem;
+
+
+}
+
+.section-3 .content-3 .heading-3 {
+    text-align: center;
+    margin-bottom: 6rem;
+}
+
+.section-3 .content-3 .my-work {
+    display: flex;
+    justify-content: space-between;
+}
+
+.section-3 .content-3 .my-work img {
+    width: 35rem;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.section-3 .content-3 .my-work p {
+    margin-top: 2.5rem;
+    font-weight: 400;
+    font-size: 2.2rem;
+}
+
+.section-3 .content-3 .my-work .link-btn {
+    display: inline-block;
+    margin-top: 1.8rem;
+}
+.section-3 .content-3 .work .w-img{
+    transition: all 0.5s ease;
+}
+.section-3 .content-3 .work .w-img:hover{
+    transform: scale(1.2);
+}
+/* STYLE FOR SECTION-4 */
+
+.section-4 .content-4 {
+    padding-top: 5rem;
+    padding-bottom: 15rem;
+}
+
+.section-4 .content-4 .heading-4 {
+    color: var(--spancolor);
+    margin-bottom: 6rem;
+}
+
+.section-4 .content-4 .box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
+}
+
+.section-4 .content-4 .box .item {
+    padding: 4rem 2.5rem;
+    border: 1px solid var(--border);
+}
+
+.section-4 .content-4 .box .item span {
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: var(--text-1);
+}
+
+.section-4 .content-4 .box .item h3 {
+    margin-top: 2.5rem;
+}
+
+.section-4 .content-4 .box .item p {
+    margin-top: 3rem;
+    color: var(--text-3);
+    font-weight: 400;
+}
+
+.section-4 .content-4 .box .item .link-btn {
+    display: inline-block;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+.section-4 .content-4 .box .item {
+    transition: all 0.5s linear;
+}
+
+.section-4 .content-4 .box .item:hover {
+    transform: scale(1.08);
+    background-color: var(--spancolor);
+}
+
+.section-4 .content-4 .box .item:hover p {
+    color: var(--text-2)
+}
+
+.section-4 .content-4 .box .item:hover a {
+    color: var(--white);
+}
+
+/* STYLE FOR FOOTER */
+
+.footer {
+    background-color: var(--footer);
+    color: var(--white);
+}
+
+.footer .content-5 {
+    text-align: center;
+    padding: 6rem 0;
+}
+
+.footer .content-5 .icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
+}
+
+.footer .content-5 .icons .media {
+    font-size: 5rem;
+}
+
+.footer .content-5 p {
+    margin-top: 2rem;
+    font-size: 2rem;
+}
+
+.footer .content-5 .icons .icon {
+    transition: all 2s linear;
+}
+
+.footer .content-5 .icons .icon:hover {
+    transform: rotate(360deg);
+}
